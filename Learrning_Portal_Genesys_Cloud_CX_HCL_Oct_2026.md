@@ -1,4 +1,6 @@
-# Genesys Lab Access:
+#  Genesys Clloud CX Training - HCL Oct 2026
+
+## Genesys Lab Access:
 - [**How to Access Genesys Cloud CX Labs - Step by Step process**](https://youtu.be/xuuo_bM2qI8)
 - Org Short Name:	**tech-task**
 - Genesys Cloud CX URL: [https://apps.usw2.pure.cloud/](https://apps.usw2.pure.cloud/)
@@ -13,14 +15,14 @@
     - Client ID :	**584facda-7203-4ada-bdf8-0ccda2b48cea**
     - Client Secret:	**G84C__6URFaUgVXyao4vK_HKkjYzxiWkDsUxJsZitEo-AiIwElOQ-aIRj7OE**
 
-# Important Links:
+## Important Links:
 - [Microsoft Teams meeting Join Link](https://teams.microsoft.com/meet/426911999576347?p=DSO4um8BwKzbALiX9Q)
 - Meeting ID: 426 911 999 576 347
 - Meeting Passcode: s8Dn983A
 
 - [Whiteboard Link](https://1drv.ms/o/c/7ee2b3346345a915/IgCAWDcr6vtUQLUnwbtOIpv-AQPbabXlCJQY4RbEL-1jiLc?e=HATZvq)
 
-# Contents:
+## Contents:
 1. Admin Interface Navigation
 2. User, Group, and Role Management
 3. Telephony Configuration
