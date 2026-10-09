@@ -2,7 +2,10 @@
 
 # Genesys Lab Access
 
-# Live Class Teams Meeting Link
+# Live Class Teams Meeting Link:
+- [Microsoft Teams meeting Join Link](https://teams.microsoft.com/meet/426911999576347?p=DSO4um8BwKzbALiX9Q)
+- Meeting ID: 426 911 999 576 347
+- Passcode: s8Dn983A
 
 # Contents:
 1. Admin Interface Navigation
