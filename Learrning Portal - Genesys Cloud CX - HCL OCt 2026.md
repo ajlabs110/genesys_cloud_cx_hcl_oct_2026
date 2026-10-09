@@ -1,6 +1,7 @@
-# Whiteboard Link: 
+# Whiteboard Link:
 
 # Genesys Lab Access:
+- [**How to Access Genesys Cloud CX Labs - Step by Step process**](https://youtu.be/xuuo_bM2qI8)
 - Org Short Name:	**tech-task**
 - Genesys Cloud CX URL: [https://apps.usw2.pure.cloud/](https://apps.usw2.pure.cloud/)
 - [Student Portal (Student IVR IDs)](https://aj-labs.com/tools/genesys-students-portal/student.php)
