@@ -30,19 +30,16 @@
 
 - [Whiteboard Link](https://1drv.ms/o/c/7ee2b3346345a915/IgCAWDcr6vtUQLUnwbtOIpv-AQPbabXlCJQY4RbEL-1jiLc?e=HATZvq)
 
-## Contents:
-1. Admin Interface Navigation
-2. User, Group, and Role Management
-3. Telephony Configuration
-4. Architect call flow (Inbound/Outbound/messaging/Chat/Email/Bot flow/Digital Bot Flow)
-5. API Integration and Data Action
-6. SalesForce integration
-7. Analytics and reporting
-8. Performance Management
-9. Quality management
-10. Troubleshooting
-11. Data table and Centralized Management of Prompts using Data Table
-12. Flow outcomes and milestones
-13. How to develop survey flow
-14. Optimization
+## Genesys Reference Links:
+- Old Interface: [https://apps.usw2.pure.cloud/admin/#/welcomeV2](https://apps.usw2.pure.cloud/admin/#/welcomeV2)
+- Genesys Licensing: [Genesys Cloud CX License Overview](https://help.genesys.cloud/articles/overview-of-genesys-cloud/) | [Plan Comparison](https://library.genesys.com/m/31987e13da6b8e6d/original/GC-Feature-Matrix-Pricing-Page-Core-Bundles.pdf) | [Pricing](https://www.genesys.com/en-sg/pricing)
 
+## Reference Links
+- [What is WebRTC](https://youtu.be/FExZvpVvYxA?si=2nJ8yXW4f9-F0ube)
+- [SIP Deep-dive](https://youtu.be/k8wCAiQV4U4?si=aI31bjXxw8fQh8HG)
+- [Build and Deploy Genesys AI Digital Bot Flow](https://youtu.be/F6mbeBygAwU)
+- [Audiocodes SBC integration with Genesys Cloud](https://youtu.be/gvOW116Z0Lk)
+- [Sticky Agent Routing in Genesys Cloud CX](https://youtu.be/9CNzdUGagAI)
+- []()
+- []()
+- []()
