@@ -1,4 +1,5 @@
 #  Genesys Clloud CX Training - HCL Oct 2026
+<img width="1920" height="1080" alt="Genesys HCL" src="https://github.com/user-attachments/assets/c16fd789-8efc-4301-8c21-f8722748c52f" />
 
 ## Know the Team:
 |Name | Role | Contact |
