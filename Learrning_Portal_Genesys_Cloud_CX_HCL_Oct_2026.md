@@ -17,7 +17,7 @@
 - Admin Account: stadmin@tech-task.com
 - Agent Accounts:	priya01@tech-task.com, ramya02@tech-task.com
 - User Accounts	user01@tech-task.com, user02@tech-task.com, user03@tech-task.com, user04@tech-task.com
-- Password: **Ajgenesys@91**
+- Password: *********
 - DID Number for Call Testing: **+12149030839** (Use RebTel app or call from WebRTC itself)
 - oAuth Client: OAUTH_CLIENT_01
     - Client ID :	**584facda-7203-4ada-bdf8-0ccda2b48cea**
