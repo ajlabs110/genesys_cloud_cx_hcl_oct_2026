@@ -22,6 +22,7 @@
 - oAuth Client: OAUTH_CLIENT_01
     - Client ID :	**584facda-7203-4ada-bdf8-0ccda2b48cea**
     - Client Secret:	**G84C__6URFaUgVXyao4vK_HKkjYzxiWkDsUxJsZitEo-AiIwElOQ-aIRj7OE**
+- [Control and  Regulation in Genesys Cloud  CX Labs](https://docs.google.com/document/d/1fGacwm29Qg_xvVmt0B7n4h73DG5zje2KfZCXs8X43Ug/edit?usp=sharing) 
 
 ## Important Links:
 - [Microsoft Teams meeting Join Link](https://teams.microsoft.com/meet/426911999576347?p=DSO4um8BwKzbALiX9Q)
