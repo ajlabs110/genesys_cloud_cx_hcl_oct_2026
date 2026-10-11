@@ -29,6 +29,7 @@
 - Meeting Passcode: s8Dn983A
 
 - [Whiteboard Link](https://1drv.ms/o/c/7ee2b3346345a915/IgCAWDcr6vtUQLUnwbtOIpv-AQPbabXlCJQY4RbEL-1jiLc?e=HATZvq)
+- [File Repository](https://drive.google.com/drive/folders/1_l_CrsHZtAXx3Jb47PFrg724Hdzn7lcP?usp=sharing){:target="_blank"}
 
 ## Genesys Reference Links:
 - Old Interface: [https://apps.usw2.pure.cloud/admin/#/welcomeV2](https://apps.usw2.pure.cloud/admin/#/welcomeV2)
