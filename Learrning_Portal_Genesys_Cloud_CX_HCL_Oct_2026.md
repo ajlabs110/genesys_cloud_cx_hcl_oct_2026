@@ -12,7 +12,7 @@
 - [**How to Access Genesys Cloud CX Labs - Step by Step process**](https://youtu.be/xuuo_bM2qI8)
 - Login Method: Azure Entra SSO
 
-|Name | Role | Contact |
+| Item | Value 1 | Value 2 |
 | -------- | -------- | -------- |
 | Org Short Name | tech-task | - |
 | Genesys Cloud CX URL | [https://apps.usw2.pure.cloud/](https://apps.usw2.pure.cloud/) | - |
@@ -22,15 +22,15 @@
 | Collaborate Users | user01@tech-task.com, user02@tech-task.com | - |
 | Communicate Users | user03@tech-task.com, user04@tech-task.com | - |
 | Password | ********* | - |
-| DID Number for Call Testing | **+12149030839** | (Use RebTel app or call from WebRTC itself)|
+| DID Number for Call Testing | +12149030839 | (Use RebTel app or call from WebRTC itself)|
 | Genesys oAuth Client:  |  |  |
-| - | Name | OAUTH_CLIENT_01 |
-| - | Client ID | 584facda-7203-4ada-bdf8-0ccda2b48cea |
-| - | Client Secret | G84C__6URFaUgVXyao4vK_HKkjYzxiWkDsUxJsZitEo-AiIwElOQ-aIRj7OE |
+|   | Name | OAUTH_CLIENT_01 |
+|   | Client ID | 584facda-7203-4ada-bdf8-0ccda2b48cea |
+|   | Client Secret | G84C__6URFaUgVXyao4vK_HKkjYzxiWkDsUxJsZitEo-AiIwElOQ-aIRj7OE |
 | Medplum oAuth Client:  |  |  |
-| - | Name | OAUTH_CLIENT_01 |
-| - | Client ID | 584facda-7203-4ada-bdf8-0ccda2b48cea |
-| - | Client Secret | G84C__6URFaUgVXyao4vK_HKkjYzxiWkDsUxJsZitEo-AiIwElOQ-aIRj7OE |
+|   | Name | MEDPLUM_OAUTH_CLIENT_01 |
+|   | Client ID | 1291a84f-a930-40ab-9b41-53660c999a61 |
+|   | Client Secret | 7a2883be7bedb3ad16f88241389a32ba431ddda132eedac7b5c0952196b0b596 |
 
 - [Control and  Regulation in Genesys Cloud  CX Labs](https://docs.google.com/document/d/1fGacwm29Qg_xvVmt0B7n4h73DG5zje2KfZCXs8X43Ug/edit?usp=sharing) 
 
@@ -57,3 +57,9 @@
 - []()
 - []()
 - []()
+
+## API Reference
+### Medplum EHR
+- [Medplum API Docs](https://www.medplum.com/docs/api)
+- [Medplum API Spec](https://api.medplum.com/openapi.json)
+- [Medplum API Postman Examples](https://github.com/medplum/medplum/tree/main/examples/medplum-postman-examples)
