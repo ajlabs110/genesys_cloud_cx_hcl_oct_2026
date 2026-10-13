@@ -1,5 +1,5 @@
 #  Genesys Cloud CX Training - HCL Oct 2026
-<img width="1920" height="1080" alt="Genesys HCL" src="https://github.com/user-attachments/assets/c16fd789-8efc-4301-8c21-f8722748c52f" />
+<img width="1920" height="1080" alt="Copy of Genesys HCL" src="https://github.com/user-attachments/assets/30361381-25cd-4a3e-b6dc-87a0ff67645f" />
 
 ## Know the Team:
 |Name | Role | Contact |
@@ -10,6 +10,11 @@
 
 ## Genesys Lab Access:
 - [**How to Access Genesys Cloud CX Labs - Step by Step process**](https://youtu.be/xuuo_bM2qI8)
+
+|Name | Role | Contact |
+| -------- | -------- | -------- |
+| Org Short Name | tech-task | - |
+
 - Org Short Name:	**tech-task**
 - Genesys Cloud CX URL: [https://apps.usw2.pure.cloud/](https://apps.usw2.pure.cloud/)
 - [Student Portal (Student IVR IDs)](https://aj-labs.com/tools/genesys-students-portal/student.php)
