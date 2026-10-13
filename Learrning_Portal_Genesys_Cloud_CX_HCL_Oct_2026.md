@@ -62,4 +62,5 @@
 ### Medplum EHR
 - [Medplum API Docs](https://www.medplum.com/docs/api)
 - [Medplum API Spec](https://api.medplum.com/openapi.json)
+- [Medplum API Postman Environment](https://github.com/medplum/medplum/blob/main/examples/medplum-postman-examples/medplum.postman_environment.json)
 - [Medplum API Postman Examples](https://github.com/medplum/medplum/tree/main/examples/medplum-postman-examples)
