@@ -4,9 +4,9 @@
 ## Know the Team:
 |Name | Role | Contact |
 | -------- | -------- | -------- |
-| Abdul   | Trainer   | +91-8590101859   |
-| Lakshmipathy   | Support   | +91-9600198658  |
-| Ashwini    | Support   | +91-9538020503   |
+| Abdul   | Trainer   | - |
+| Lakshmipathy   | Support   | - |
+| Ashwini    | Support   | - |
 
 ## Genesys Lab Access:
 - [**How to Access Genesys Cloud CX Labs - Step by Step process**](https://youtu.be/xuuo_bM2qI8)
