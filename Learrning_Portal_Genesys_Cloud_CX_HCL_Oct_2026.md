@@ -10,23 +10,28 @@
 
 ## Genesys Lab Access:
 - [**How to Access Genesys Cloud CX Labs - Step by Step process**](https://youtu.be/xuuo_bM2qI8)
+- Login Method: Azure Entra SSO
 
 |Name | Role | Contact |
 | -------- | -------- | -------- |
 | Org Short Name | tech-task | - |
+| Genesys Cloud CX URL | [https://apps.usw2.pure.cloud/](https://apps.usw2.pure.cloud/) | - |
+| Students Portal | [Student Portal (Student IVR IDs)](https://aj-labs.com/tools/genesys-students-portal/student.php) | - |
+| Admin Account | stadmin@tech-task.com | - |
+| Agent Accounts | priya01@tech-task.com, ramya02@tech-task.com | - |
+| Collaborate Users | user01@tech-task.com, user02@tech-task.com | - |
+| Communicate Users | user03@tech-task.com, user04@tech-task.com | - |
+| Password | ********* | - |
+| DID Number for Call Testing | **+12149030839** | (Use RebTel app or call from WebRTC itself)|
+| Genesys oAuth Client:  |  |  |
+| - | Name | OAUTH_CLIENT_01 |
+| - | Client ID | 584facda-7203-4ada-bdf8-0ccda2b48cea |
+| - | Client Secret | G84C__6URFaUgVXyao4vK_HKkjYzxiWkDsUxJsZitEo-AiIwElOQ-aIRj7OE |
+| Medplum oAuth Client:  |  |  |
+| - | Name | OAUTH_CLIENT_01 |
+| - | Client ID | 584facda-7203-4ada-bdf8-0ccda2b48cea |
+| - | Client Secret | G84C__6URFaUgVXyao4vK_HKkjYzxiWkDsUxJsZitEo-AiIwElOQ-aIRj7OE |
 
-- Org Short Name:	**tech-task**
-- Genesys Cloud CX URL: [https://apps.usw2.pure.cloud/](https://apps.usw2.pure.cloud/)
-- [Student Portal (Student IVR IDs)](https://aj-labs.com/tools/genesys-students-portal/student.php)
-- Login Method: Azure Entra SSO
-- Admin Account: stadmin@tech-task.com
-- Agent Accounts:	priya01@tech-task.com, ramya02@tech-task.com
-- User Accounts	user01@tech-task.com, user02@tech-task.com, user03@tech-task.com, user04@tech-task.com
-- Password: *********
-- DID Number for Call Testing: **+12149030839** (Use RebTel app or call from WebRTC itself)
-- oAuth Client: OAUTH_CLIENT_01
-    - Client ID :	**584facda-7203-4ada-bdf8-0ccda2b48cea**
-    - Client Secret:	**G84C__6URFaUgVXyao4vK_HKkjYzxiWkDsUxJsZitEo-AiIwElOQ-aIRj7OE**
 - [Control and  Regulation in Genesys Cloud  CX Labs](https://docs.google.com/document/d/1fGacwm29Qg_xvVmt0B7n4h73DG5zje2KfZCXs8X43Ug/edit?usp=sharing) 
 
 ## Important Links:
