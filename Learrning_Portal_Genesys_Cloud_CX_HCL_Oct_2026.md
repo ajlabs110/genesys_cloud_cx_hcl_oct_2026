@@ -10,14 +10,14 @@
 
 ## Genesys Lab Access:
 - [**How to Access Genesys Cloud CX Labs - Step by Step process**](https://youtu.be/xuuo_bM2qI8)
-- Login Method: Azure Entra SSO
+- Login Method: Local Access
 
 | Item | Value 1 | Value 2 |
 | -------- | -------- | -------- |
 | Org Short Name | tech-task | - |
 | Genesys Cloud CX URL | [https://apps.usw2.pure.cloud/](https://apps.usw2.pure.cloud/) | - |
 | Students Portal | [Student Portal (Student IVR IDs)](https://aj-labs.com/tools/genesys-students-portal/student.php) | - |
-| Admin Account | stadmin@tech-task.com | - |
+| Admin Account | hadmin@tech-task.com | - |
 | Agent Accounts | priya01@tech-task.com, ramya02@tech-task.com | - |
 | Collaborate Users | user01@tech-task.com, user02@tech-task.com | - |
 | Communicate Users | user03@tech-task.com, user04@tech-task.com | - |
