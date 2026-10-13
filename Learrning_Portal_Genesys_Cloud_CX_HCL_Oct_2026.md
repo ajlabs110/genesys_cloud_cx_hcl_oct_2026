@@ -18,6 +18,7 @@
 | Genesys Cloud CX URL | [https://apps.usw2.pure.cloud/](https://apps.usw2.pure.cloud/) | - |
 | Students Portal | [Student Portal (Student IVR IDs)](https://aj-labs.com/tools/genesys-students-portal/student.php) | - |
 | Admin Account | hadmin@tech-task.com | - |
+| MFA Link | [Beeceptor](https://beeceptor.com/resources/2fa-code-generator/index.html?id=d60010cd-09cb-4d76-9cfc-0c51d4b88e5c)  | - |
 | Agent Accounts | priya01@tech-task.com, ramya02@tech-task.com | - |
 | Collaborate Users | user01@tech-task.com, user02@tech-task.com | - |
 | Communicate Users | user03@tech-task.com, user04@tech-task.com | - |
