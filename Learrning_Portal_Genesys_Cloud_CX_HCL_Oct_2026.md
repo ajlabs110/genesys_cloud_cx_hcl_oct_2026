@@ -21,7 +21,7 @@
 | Agent Accounts | priya01@tech-task.com, ramya02@tech-task.com | - |
 | Collaborate Users | user01@tech-task.com, user02@tech-task.com | - |
 | Communicate Users | user03@tech-task.com, user04@tech-task.com | - |
-| Password | ********* | - |
+| Password | Ajgenesys@91 | - |
 | DID Number for Call Testing | +12149030839 | (Use RebTel app or call from WebRTC itself)|
 | Genesys oAuth Client:  |  |  |
 |   | Name | OAUTH_CLIENT_01 |
