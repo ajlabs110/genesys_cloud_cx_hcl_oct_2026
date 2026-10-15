@@ -55,8 +55,8 @@
 - [Build and Deploy Genesys AI Digital Bot Flow](https://youtu.be/F6mbeBygAwU)
 - [Audiocodes SBC integration with Genesys Cloud](https://youtu.be/gvOW116Z0Lk)
 - [Sticky Agent Routing in Genesys Cloud CX](https://youtu.be/9CNzdUGagAI)
-- []()
-- []()
+- [Ports and services for Genesys Cloud clients](https://help.genesys.cloud/articles/ports-and-services-for-genesys-cloud-clients/)
+- [Ports and services for WebRTC](https://help.genesys.cloud/articles/ports-and-services-for-webrtc/)
 - []()
 
 ## API Reference
