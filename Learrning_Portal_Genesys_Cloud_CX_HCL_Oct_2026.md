@@ -63,6 +63,7 @@
 - [Genesys Cloud System Status](https://status.mypurecloud.com/) | [AWS Service health](https://health.aws.amazon.com/health/status)
 - Genesys Licensing: [Genesys Cloud CX License Overview](https://help.genesys.cloud/articles/overview-of-genesys-cloud/) | [Plan Comparison](https://library.genesys.com/m/31987e13da6b8e6d/original/GC-Feature-Matrix-Pricing-Page-Core-Bundles.pdf) | [Pricing](https://www.genesys.com/en-sg/pricing)
 - [Genesys Fair Usage Policy](https://help.mypurecloud.com/articles/genesys-cloud-fair-use-policy/)
+- [Amazon Polly TTS Integration](https://help.genesys.cloud/articles/configure-iam-role-with-permissions-for-amazon-polly-app/)
 
 ## Reference Links
 - [What is WebRTC](https://youtu.be/FExZvpVvYxA?si=2nJ8yXW4f9-F0ube)
