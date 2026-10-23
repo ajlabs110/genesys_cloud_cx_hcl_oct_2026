@@ -107,6 +107,7 @@ Return only valid JSON.
 
 ### Twilio APIs
 #### Number Lookup API (Web Service Data Action)
+- Twilio Number Lookup V2 API Documentation: [Lookup v2 Quickstart](https://www.twilio.com/docs/lookup/quickstart) | [Lookup v2 API](https://www.twilio.com/docs/lookup/v2-api?_gl=1*lm9uf6*_ga*MTI4ODQ1MzQ1NC4xNzg3MDQyNzk2*_ga_RRP8K4M4F3*czE3OTI3NTgxMjckbzgkZzEkdDE3OTI3NTgxMzUkajUyJGwwJGgw)
 - Method: GET
 - Actual URL: https://lookups.twilio.com/v2/PhoneNumbers/+918590101859
 - Path Variable URL: https://lookups.twilio.com/v2/PhoneNumbers/:customer_number
@@ -114,7 +115,7 @@ Return only valid JSON.
 - Authorization Method 2: Authorization = Basic <base 64 encoded Username+Password>.
 - Headers: Content-Type = application/json
 - Body: NA
-- ============================================================================================================
+- ==============================================================================
 - Data Action Name: **2001_H_TWIILIO_NUMBER_LOOKUP**
 - Genesys URL: https://lookups.twilio.com/v2/PhoneNumbers/${input.customer_number}
 - Genesys URL with Escape: https://lookups.twilio.com/v2/PhoneNumbers/$esc.url(${input.customer_number})
