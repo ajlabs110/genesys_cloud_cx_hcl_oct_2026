@@ -114,9 +114,27 @@ Return only valid JSON.
 - Authorization Method 2: Authorization = Basic <base 64 encoded Username+Password>.
 - Headers: Content-Type = application/json
 - Body: NA
-- ***...***...***...
+- ============================================================================================================
+- Data Action Name: **2001_H_TWIILIO_NUMBER_LOOKUP**
 - Genesys URL: https://lookups.twilio.com/v2/PhoneNumbers/${input.customer_number}
 - Genesys URL with Escape: https://lookups.twilio.com/v2/PhoneNumbers/$esc.url(${input.customer_number})
+- Translation Map:
+```
+{
+  "translationMap": {
+   "country_code": "$.country_code",
+    "calling_country_code": "$.calling_country_code",
+    "valid": "$.valid"
+  },
+  "translationMapDefaults": {
+    "country_code": "\"UNKNOWN\"",
+    "calling_country_code": "\"UNKNOWN\"",
+    "valid": "false"
+  },
+  "successTemplate": "{\"country_code\": ${country_code}, \"calling_country_code\": ${calling_country_code}, \"valid\": ${valid}}"
+}
+
+```
 
 
 
