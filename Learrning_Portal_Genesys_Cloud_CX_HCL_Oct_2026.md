@@ -73,9 +73,63 @@
 - [Sticky Agent Routing in Genesys Cloud CX](https://youtu.be/9CNzdUGagAI)
 - [Ports and services for Genesys Cloud clients](https://help.genesys.cloud/articles/ports-and-services-for-genesys-cloud-clients/)
 - [Ports and services for WebRTC](https://help.genesys.cloud/articles/ports-and-services-for-webrtc/)
-- []()
+- [Base 64 Encoding](https://emn178.github.io/online-tools/base64_encode.html)
+- [ISO Country Codes](https://www.iban.com/country-codes)
 
 ## API Reference
+### JSON Path Translation default Template:
+```
+{
+  "translationMap": {
+    "ITEM_1": "$.KEY_1",
+    "ITEM_2": "$.KEY_2",
+    "ITEM_3": "$.KEY_3"
+  },
+  "translationMapDefaults": {
+    "ITEM_1": "\"UNKNOWN\"",
+    "ITEM_2": "\"UNKNOWN\"",
+    "ITEM_3": "false"
+  },
+  "successTemplate": "{\"ITEM_1\": ${ITEM_1}, \"ITEM_2\": ${ITEM_2}, \"ITEM_3\": ${ITEM_3}}"
+}
+```
+### AI Prompt for Translation Template:
+
+```
+From this JSON (given below), create a JSON object mapping each requested field to its JSONPath expression.
+JSON Data:
+<JSON DATA HERE>
+
+Fields: country_code, calling_country_code, valid
+Return only valid JSON.
+
+```
+
+### Twilio APIs
+#### Number Lookup API (Web Service Data Action)
+- Method: GET
+- Actual URL: https://lookups.twilio.com/v2/PhoneNumbers/+918590101859
+- Path Variable URL: https://lookups.twilio.com/v2/PhoneNumbers/:customer_number
+- Authorization Method 1: Basic Auth,  Usernamme: {{account_sid}}, Password: {{auth_token}}
+- Authorization Method 2: Authorization = Basic <base 64 encoded Username+Password>.
+- Headers: Content-Type = application/json
+- Body: NA
+- ***...***...***...
+- Genesys URL: https://lookups.twilio.com/v2/PhoneNumbers/${input.customer_number}
+- Genesys URL with Escape: https://lookups.twilio.com/v2/PhoneNumbers/$esc.url(${input.customer_number})
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Medplum EHR
 - [Medplum API Docs](https://www.medplum.com/docs/api)
 - [Medplum Sample Data References](https://www.medplum.com/docs/tutorials/browse-sample-data)
