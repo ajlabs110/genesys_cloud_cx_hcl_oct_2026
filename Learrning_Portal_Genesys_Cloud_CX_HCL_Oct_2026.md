@@ -77,6 +77,7 @@
 - [Ports and services for WebRTC](https://help.genesys.cloud/articles/ports-and-services-for-webrtc/)
 - [Base 64 Encoding](https://emn178.github.io/online-tools/base64_encode.html)
 - [ISO Country Codes](https://www.iban.com/country-codes)
+- [AJ Care Point Script Banner](https://ajcollab.com/images/AJ_Care_Point_Genesys_Banner_Image01.png)
 
 ## API Reference
 ### JSON Path Translation default Template:
