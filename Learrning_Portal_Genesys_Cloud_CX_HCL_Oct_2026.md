@@ -138,22 +138,59 @@ Return only valid JSON.
 }
 
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Medplum EHR
+### Medplum APIs Reference
 - [Medplum API Docs](https://www.medplum.com/docs/api)
 - [Medplum Sample Data References](https://www.medplum.com/docs/tutorials/browse-sample-data)
 - [Medplum API Spec](https://api.medplum.com/openapi.json)
 - [Medplum API Postman Environment](https://github.com/medplum/medplum/blob/main/examples/medplum-postman-examples/medplum.postman_environment.json)
 - [Medplum API Postman Examples](https://github.com/medplum/medplum/tree/main/examples/medplum-postman-examples)
+
+#### Medplum API Environment Configuration
+- Environment > Default module: https://api.medplum.com
+- Environment > baseUrl: https://api.medplum.com
+  
+#### Medplum API Token Generation
+- Method: POST
+- URL: {{baseUrl}}/oauth2/token
+- Authorization: No Auth
+- Body: x-www-form-urlencoded
+  - grant_type: client_credentials
+  - client_id: 2259e6dd-f652-46ea-8e79-8d20776107e5
+  - client_secret: 6537be9951fdf7883fa365a09a86fd1995b5662140cb5cc81eb489ad8ad6d6f1
+ 
+ - Sample URL: {{baseUrl}}/fhir/R4/Patient
+ - Authorization: Bearer Token > Token
+
+#### Medplum API OAuth 2.0 Authentication (Folder Level) 
+
+- Folder Level Auth:
+  - Authorization Type: OAuth 2.0
+  - Grant Type: Client Credentials
+  - Access Token URL: {{baseUrl}}/oauth2/token
+  - Client ID: 2259e6dd-f652-46ea-8e79-8d20776107e5
+  - Client Secret: 6537be9951fdf7883fa365a09a86fd1995b5662140cb5cc81eb489ad8ad6d6f1
+
+#### Patient Lookup API (Web Service Data Action)
+- Name: **2001_H_GET_PATIENT_BY_PHONE**
+
+
+- Method: GET
+- Actual URL: https://lookups.twilio.com/v2/PhoneNumbers/+918590101859
+- Path Variable URL: https://lookups.twilio.com/v2/PhoneNumbers/:customer_number
+- Authorization Method 1: Basic Auth,  Usernamme: {{account_sid}}, Password: {{auth_token}}
+- Authorization Method 2: Authorization = Basic <base 64 encoded Username+Password>.
+- Headers: Content-Type = application/json
+- Body: NA
+- ==============================================================================
+- Data Action Name: **2001_H_TWIILIO_NUMBER_LOOKUP**
+- Genesys URL: https://lookups.twilio.com/v2/PhoneNumbers/${input.customer_number}
+- Genesys URL with Escape: https://lookups.twilio.com/v2/PhoneNumbers/$esc.url(${input.customer_number})
+- Translation Map:
+
+
+
+
+
+
+
+
