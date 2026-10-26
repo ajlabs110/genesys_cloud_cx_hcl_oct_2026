@@ -183,12 +183,46 @@ Return only valid JSON.
   - Genesys URL 1: https://api.medplum.com/fhir/R4/Patient?phone=%2B919495860708&_count=1
   - Genesys URL 2: https://api.medplum.com/fhir/R4/Patient?phone=${input.customer_number}&_count=1
   - Genesys URL 3: https://api.medplum.com/fhir/R4/Patient?phone=$esc.url(${input.customer_number})&_count=1
-  - Translation Map:
-
-
-
-
-
+  - Translation Map (Separate **first_name** and **last_name**):
+```
+{
+  "translationMap": {
+  "patient_mrn": "$.entry[0].resource.identifier[0].value",
+  "first_name": "$.entry[0].resource.name[0].given[0]",
+  "last_name": "$.entry[0].resource.name[0].family",
+  "gender": "$.entry[0].resource.gender",
+  "birthDate": "$.entry[0].resource.birthDate"
+},
+  "translationMapDefaults": {
+    "patient_mrn": "\"UNKNOWN\"",
+    "first_name": "\"UNKNOWN\"",
+    "last_name": "\"UNKNOWN\"",
+	"gender": "\"UNKNOWN\"",
+	"birthDate": "\"UNKNOWN\""
+  },
+  "successTemplate": "{\"patient_mrn\": ${patient_mrn}, \"first_name\": ${first_name}, \"last_name\": ${last_name}, \"gender\": ${gender}, \"birthDate\": ${birthDate}}"
+}
+```
+  - Translation Map (Combined first_name and last_name as **full_name**):
+```
+{
+  "translationMap": {
+    "patient_mrn": "$.entry[0].resource.identifier[0].value",
+    "first_name": "$.entry[0].resource.name[0].given[0]",
+    "last_name": "$.entry[0].resource.name[0].family",
+    "gender": "$.entry[0].resource.gender",
+    "birthDate": "$.entry[0].resource.birthDate"
+  },
+  "translationMapDefaults": {
+    "patient_mrn": "\"UNKNOWN\"",
+    "first_name": "\"UNKNOWN\"",
+    "last_name": "\"UNKNOWN\"",
+    "gender": "\"UNKNOWN\"",
+    "birthDate": "\"UNKNOWN\""
+  },
+  "successTemplate": "{\"patient_mrn\": ${patient_mrn}, \"full_name\": \"${first_name.replace('\"','')} ${last_name.replace('\"','')}\", \"gender\": ${gender}, \"birthDate\": ${birthDate}}"
+}
+```
 
 
 
