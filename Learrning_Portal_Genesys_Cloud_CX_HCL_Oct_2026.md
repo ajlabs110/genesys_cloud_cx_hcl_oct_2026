@@ -24,6 +24,8 @@
 | Communicate Users | user03@tech-task.com, user04@tech-task.com | - |
 | Password | Ajgenesys@91 | - |
 | DID Number for Call Testing | +12149030839 | (Use RebTel app or call from WebRTC itself)|
+| Medplum EHR URL | https://app.medplum.com | - |
+| Medplum EHR Account | stadmin@tech-task.com | Ajgenesys@91 |
 | Genesys oAuth Client:  |  |  |
 |   | Name | OAUTH_CLIENT_01 |
 |   | Client ID | 584facda-7203-4ada-bdf8-0ccda2b48cea |
