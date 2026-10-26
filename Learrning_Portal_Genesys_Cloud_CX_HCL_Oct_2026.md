@@ -191,16 +191,16 @@ Return only valid JSON.
   "first_name": "$.entry[0].resource.name[0].given[0]",
   "last_name": "$.entry[0].resource.name[0].family",
   "gender": "$.entry[0].resource.gender",
-  "birthDate": "$.entry[0].resource.birthDate"
+  "birth_date": "$.entry[0].resource.birthDate"
 },
   "translationMapDefaults": {
     "patient_mrn": "\"UNKNOWN\"",
     "first_name": "\"UNKNOWN\"",
     "last_name": "\"UNKNOWN\"",
 	"gender": "\"UNKNOWN\"",
-	"birthDate": "\"UNKNOWN\""
+	"birth_date": "\"UNKNOWN\""
   },
-  "successTemplate": "{\"patient_mrn\": ${patient_mrn}, \"first_name\": ${first_name}, \"last_name\": ${last_name}, \"gender\": ${gender}, \"birthDate\": ${birthDate}}"
+  "successTemplate": "{\"patient_mrn\": ${patient_mrn}, \"first_name\": ${first_name}, \"last_name\": ${last_name}, \"gender\": ${gender}, \"birth_date\": ${birth_date}}"
 }
 ```
   - Translation Map (Combined first_name and last_name as **full_name**):
@@ -211,16 +211,16 @@ Return only valid JSON.
     "first_name": "$.entry[0].resource.name[0].given[0]",
     "last_name": "$.entry[0].resource.name[0].family",
     "gender": "$.entry[0].resource.gender",
-    "birthDate": "$.entry[0].resource.birthDate"
+    "birth_date": "$.entry[0].resource.birthDate"
   },
   "translationMapDefaults": {
     "patient_mrn": "\"UNKNOWN\"",
     "first_name": "\"UNKNOWN\"",
     "last_name": "\"UNKNOWN\"",
     "gender": "\"UNKNOWN\"",
-    "birthDate": "\"UNKNOWN\""
+    "birth_date": "\"UNKNOWN\""
   },
-  "successTemplate": "{\"patient_mrn\": ${patient_mrn}, \"full_name\": \"${first_name.replace('\"','')} ${last_name.replace('\"','')}\", \"gender\": ${gender}, \"birthDate\": ${birthDate}}"
+  "successTemplate": "{\"patient_mrn\": ${patient_mrn}, \"full_name\": \"${first_name.replace('\"','')} ${last_name.replace('\"','')}\", \"gender\": ${gender}, \"birth_date\": ${birth_date}}"
 }
 ```
 
