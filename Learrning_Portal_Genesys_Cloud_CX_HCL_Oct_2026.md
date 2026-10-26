@@ -118,7 +118,7 @@ Return only valid JSON.
 - Headers: Content-Type = application/json
 - Body: NA
 - ==============================================================================
-- Data Action Name: **2001_H_TWIILIO_NUMBER_LOOKUP**
+- Data Action Name: **2001_NUMBER_LOOKUP**
 - Genesys URL: https://lookups.twilio.com/v2/PhoneNumbers/${input.customer_number}
 - Genesys URL with Escape: https://lookups.twilio.com/v2/PhoneNumbers/$esc.url(${input.customer_number})
 - Translation Map:
