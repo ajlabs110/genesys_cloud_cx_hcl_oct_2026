@@ -224,6 +224,31 @@ Return only valid JSON.
   "successTemplate": "{\"patient_mrn\": ${patient_mrn}, \"full_name\": \"${first_name.replace('\"','')} ${last_name.replace('\"','')}\", \"gender\": ${gender}, \"birth_date\": ${birth_date}}"
 }
 ```
+-----------
+#### 5. Patient Lab Results API (Web Service Data Action)
+- Name: **2001_H_GET_PATIENT_LAB_RESULTS**
+- Method: GET
+- Actual URL: {{baseUrl}}/fhir/R4/DiagnosticReport OR {{baseUrl}}/fhir/R4/DiagnosticReport?subject:Patient.phone=%2B91123456789&_sort=-date&_count=1&_elements=conclusion
+- Query Parameters:
+  - subject:Patient.phone: %2B919495860708
+  - _count: 1
+  - _sort: -date
+  - _elements: conclusion
+- Authorization: Inherited
+- Authorization Method 2: Authorization = Basic <base 64 encoded Username+Password>.
+- Body: NA
+- Data Action:
+  - Genesys URL 1: https://api.medplum.com/fhir/R4/DiagnosticReport?subject:Patient.phone=%2B919495860708&_sort=-date&_count=1&_elements=conclusion
+  - Genesys URL 2: https://api.medplum.com/fhir/R4/DiagnosticReport?subject:Patient.phone=${input.customer_number}&_sort=-date&_count=1&_elements=conclusion
+  - Genesys URL 3: https://api.medplum.com/fhir/R4/DiagnosticReport?subject:Patient.phone=$esc.url(${input.customer_number})&_sort=-date&_count=1&_elements=conclusion
+  - Translation Map:
+```
+xxx
+```
+  - Translation Map (Combined first_name and last_name as **full_name**):
+```
+xxx
+```
 
 
 
