@@ -243,12 +243,19 @@ Return only valid JSON.
   - Genesys URL 3: https://api.medplum.com/fhir/R4/DiagnosticReport?subject:Patient.phone=$esc.url(${input.customer_number})&_sort=-date&_count=1&_elements=conclusion
   - Translation Map:
 ```
-xxx
+{
+  "translationMap": {
+    "result_type": "$.entry[0].resource.code.text",
+    "result_conclusion": "$.entry[0].resource.conclusion"
+  },
+  "translationMapDefaults": {
+    "result_type": "\"UNKNOWN\"",
+    "result_conclusion": "\"UNKNOWN\""
+  },
+  "successTemplate": "{\"result_type\": ${result_type}, \"result_conclusion\": ${result_conclusion}}"
+}
 ```
-  - Translation Map (Combined first_name and last_name as **full_name**):
-```
-xxx
-```
+
 
 
 
