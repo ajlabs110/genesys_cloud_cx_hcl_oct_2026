@@ -255,6 +255,12 @@ Return only valid JSON.
   "successTemplate": "{\"result_type\": ${result_type}, \"result_conclusion\": ${result_conclusion}}"
 }
 ```
+### Email Flow Expressions
+```
+Contains(Lower(Email.Message.subject), "lab") == true
+Contains(Lower(Email.Message.subject), "appointment") == true
+Contains(Lower(Email.Message.subject), "nurse") == true
+```
 
 
 
