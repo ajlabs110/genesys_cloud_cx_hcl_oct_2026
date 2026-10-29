@@ -255,10 +255,34 @@ Return only valid JSON.
   "successTemplate": "{\"result_type\": ${result_type}, \"result_conclusion\": ${result_conclusion}}"
 }
 ```
+#### 6. Patient Lookup API with Email (**2001_H_GET_PATIENT_BY_PHONE_WITH_EMAIL**)
+
+```
+{
+  "translationMap": {
+    "last_name": "$.entry[0].resource.name[0].family",
+    "gender": "$.entry[0].resource.gender",
+    "first_name": "$.entry[0].resource.name[0].given[0]",
+    "patient_id": "$.entry[0].resource.identifier[0].value",
+    "birth_date": "$.entry[0].resource.birthDate",
+    "email": "$.entry[0].resource.telecom[1].value"
+  },
+  "translationMapDefaults": {
+    "last_name": "\"UNKNOWN\"",
+    "gender": "\"UNKNOWN\"",
+    "first_name": "\"UNKNOWN\"",
+    "patient_id": "\"UNKNOWN\"",
+    "birth_date": "\"UNKNOWN\"",
+    "email": "\"UNKNOWN\""
+  },
+  "successTemplate": "{\"patient_id\": ${patient_id}, \"full_name\": \"${first_name.replace('\"','')} ${last_name.replace('\"','')}\", \"gender\": ${gender}, \"birth_date\": ${birth_date}, \"email\": ${email}}"
+}
+```
+
 ### Email Flow Expressions
 ```
-Contains(Lower(Email.Message.subject), "lab") == true
 Contains(Lower(Email.Message.subject), "appointment") == true
+Contains(Lower(Email.Message.subject), "lab") == true
 Contains(Lower(Email.Message.subject), "nurse") == true
 ```
 
