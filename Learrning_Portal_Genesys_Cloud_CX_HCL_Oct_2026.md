@@ -34,6 +34,7 @@
 |   | Name | MEDPLUM_OAUTH_CLIENT_01 |
 |   | Client ID | 1291a84f-a930-40ab-9b41-53660c999a61 |
 |   | Client Secret | 7a2883be7bedb3ad16f88241389a32ba431ddda132eedac7b5c0952196b0b596 |
+| ftp.ajcollab.com | ftpuser@ajcollab.com | Ajstudent@12 |
 
 - [Control and  Regulation in Genesys Cloud  CX Labs](https://docs.google.com/document/d/1fGacwm29Qg_xvVmt0B7n4h73DG5zje2KfZCXs8X43Ug/edit?usp=sharing) 
 
@@ -78,6 +79,8 @@
 - [Base 64 Encoding](https://emn178.github.io/online-tools/base64_encode.html)
 - [ISO Country Codes](https://www.iban.com/country-codes)
 - [AJ Care Point Script Banner](https://ajcollab.com/images/AJ_Care_Point_Genesys_Banner_Image01.png)
+- [Filestash Online FTP Client](https://www.filestash.app/online-ftp-client.html)
+- [Sample WebApp](https://drive.google.com/file/d/1Y_z95qrUismkh_eiJRZ6fyHAdHyaPOgY/view?usp=sharing)
 
 ## API Reference
 ### JSON Path Translation default Template:
