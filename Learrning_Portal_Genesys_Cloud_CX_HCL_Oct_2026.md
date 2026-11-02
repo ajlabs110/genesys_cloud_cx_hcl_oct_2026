@@ -81,6 +81,7 @@
 - [AJ Care Point Script Banner](https://ajcollab.com/images/AJ_Care_Point_Genesys_Banner_Image01.png)
 - [Filestash Online FTP Client](https://www.filestash.app/online-ftp-client.html)
 - [Sample WebApp](https://drive.google.com/file/d/1Y_z95qrUismkh_eiJRZ6fyHAdHyaPOgY/view?usp=sharing)
+- Sample Site: **https://ajcollab.com/students-web/2001abdul/** | **https://ajcollab.com/students-web/XXXXNAME/**
 
 ## API Reference
 ### JSON Path Translation default Template:
