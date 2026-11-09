@@ -22,19 +22,19 @@
 | Agent Accounts | priya01@tech-task.com, ramya02@tech-task.com | - |
 | Collaborate Users | user01@tech-task.com, user02@tech-task.com | - |
 | Communicate Users | user03@tech-task.com, user04@tech-task.com | - |
-| Password | Ajgenesys@91 | - |
+| Password | - | - |
 | DID Number for Call Testing | +12149030839 | (Use RebTel app or call from WebRTC itself)|
 | Medplum EHR URL | https://app.medplum.com | - |
-| Medplum EHR Account | stadmin@tech-task.com | Ajgenesys@91 |
+| Medplum EHR Account | stadmin@tech-task.com | - |
 | Genesys oAuth Client:  |  |  |
 |   | Name | OAUTH_CLIENT_01 |
-|   | Client ID | 584facda-7203-4ada-bdf8-0ccda2b48cea |
-|   | Client Secret | G84C__6URFaUgVXyao4vK_HKkjYzxiWkDsUxJsZitEo-AiIwElOQ-aIRj7OE |
+|   | Client ID | - |
+|   | Client Secret | - |
 | Medplum oAuth Client:  |  |  |
 |   | Name | MEDPLUM_OAUTH_CLIENT_01 |
-|   | Client ID | 1291a84f-a930-40ab-9b41-53660c999a61 |
-|   | Client Secret | 7a2883be7bedb3ad16f88241389a32ba431ddda132eedac7b5c0952196b0b596 |
-| ftp.ajcollab.com | ftpuser@ajcollab.com | Ajstudent@12 |
+|   | Client ID | - |
+|   | Client Secret | - |
+| ftp.ajcollab.com | ftpuser@ajcollab.com | - |
 
 - [Control and  Regulation in Genesys Cloud  CX Labs](https://docs.google.com/document/d/1fGacwm29Qg_xvVmt0B7n4h73DG5zje2KfZCXs8X43Ug/edit?usp=sharing) 
 
